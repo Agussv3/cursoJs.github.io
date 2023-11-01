@@ -1,0 +1,3 @@
+var = a variable
+let = a variable
+const = a constante (siempre hay que darle un valor, que no cambia )

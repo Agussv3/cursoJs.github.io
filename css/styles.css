@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    height: 100px;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+
+}
+
+.caja{
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "caja1 caja2 caja3 caja4";
+}
+
+.caja1{
+    grid-area: caja1;
+}
+
+.caja2{
+    grid-area: caja2;
+}
+
+.caja3{
+    grid-area: caja3;
+}
+
+.caja4{
+    grid-area: caja4;
+}
+
+.caja > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fondocal{
+    background-color: #090c31;
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculadora{
+    background-color: #1d204c ;
+    color: white;
+    width: 350px;
+    max-width: 100%;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: .5rem;
+}
+.pantalla{
+    grid-column: 1 / -1;
+    background-color: #090c31;
+    padding: 1.5rem;
+    font-size: 2rem;
+    text-align: right;
+    border-radius: .5rem;
+    margin-bottom: 1rem;
+    font-family: monospace;
+    font-weight: 600;
+}
+
+.btns{
+    background-color: #1d204c;
+    color: white;
+    border: 0;
+    padding: 1.5rem .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+.parrafo{
+    color: white;
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+.btns:hover{
+    background-color: #090c31;
+}
+
+#cero{
+    grid-column: span 2;
+}
+
+#igual{
+    grid-row: span 2;
+    background-color: #e6394a;
+}
+
+#igual:hover {
+    background-color: #f13c4f;
+}
+
+.fondoformulario{
+    display: flex;
+    justify-content: center;
+    background-color: #f13c4f;
+}
+
+h3{
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font: 2em;
+    margin-bottom: 15px;
+    padding: 0;
+}
+
+.formulario {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    background-color: #090c31;
+    padding: 5px;
+    border-radius:0.5rem;
+    width: 400px;
+    flex-direction: column;
+    color: #ffffff;
+}
+
+.entrada {
+    border-radius: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: #24303c;
+    color: #ffffff;
+    margin-bottom: 5px;
+    font-family: "calibri";
+    border: 2px solid #1f53c5;
+  }

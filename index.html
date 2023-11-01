@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Precio-Total-Home</title>
+    <!--Favicom-->
+    <link rel="shortcut icon" href="./assets/NeonLogo.png" type="image/x-icon">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <!--css-->
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+  <header>
+      <nav class="navbar bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand"><img src="./assets/NeonLogo.png" alt="logo" class="logo"></a>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="videojuegos" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </nav>
+  </header>
+
+  <div class="titulo">
+    <h2>Juegos Destacados</h2>
+  </div>
+
+  <aside class="caja">
+
+    <div class="caja1">
+      <div class="card" style="width: 18rem;">
+        <img src="assets/baldur.jpg" class="card-img-top" alt="baldur">
+        <div class="card-body">
+          <h5 class="card-title">Baldur's Gate 3</h5>
+          <p class="card-text">Reúne a tu grupo y vuelve a los Reinos Olvidados en un relato de compañerismo y traición, sacrificio y supervivencia.</p>
+          <a href="https://store.steampowered.com/app/1086940/Baldurs_Gate_3/" class="btn btn-primary">Ver mas</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="caja2">
+      <div class="card" style="width: 18rem;">
+        <img src="assets/cyberpunk.jpg" class="card-img-top" alt="cyberpunk">
+        <div class="card-body">
+          <h5 class="card-title">Cyberpunk 2077</h5>
+          <p class="card-text">Cyberpunk 2077 es un RPG de aventura y acción de mundo abierto ambientado en el futuro sombrío de Night City</p>
+          <a href="https://store.steampowered.com/app/1091500/Cyberpunk_2077/" class="btn btn-primary">Ver mas</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="caja3">
+      <div class="card" style="width: 18rem;">
+        <img src="assets/payday.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">PAYDAY 3</h5>
+          <p class="card-text">PAYDAY 3 es la muy esperada secuela de uno de los shooters cooperativos más populares que existen. Desde su lanzamiento.</p>
+          <a href="https://store.steampowered.com/app/1272080/PAYDAY_3/" class="btn btn-primary">Ver mas</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="caja4">
+      <div class="card" style="width: 18rem;">
+        <img src="assets/farlight.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Farlight 84</h5>
+          <p class="card-text">Shooter de héroes de ritmo rápido Battle Royale. Interoperable multiplataforma. Con mochilas propulsoras flexibles.</p>
+          <a href="https://store.steampowered.com/app/1928420/Farlight_84/" class="btn btn-primary">Ver mas</a>
+        </div>
+      </div>
+    </div>
+
+  </aside>
+  <main class="fondocal">
+    <p class="parrafo">Para saber el valor total del juego hay que sumarle un 100% más, supongamos que el juego sale 1000 pesos, <br> El precio final sería de 2000 pesos. El cálculo es simple, sería el valor del juego, multiplicado por 1. <br>Eso sería el impuesto que le sumariamos. Recordemos quer tarjetas como UALA Cobran un 5% mas, <br> ahi tendriamos que calcularlo con un 1.05 en vez de 1.
+    </p>
+    <div class="calculadora">
+      <div class="pantalla">0</div>
+      <button  id="c"      class="btns">C</button>
+      <button  id="borrar" class="btns">←</button>
+      <button class="btns">/</button>
+      <button class="btns">*</button>
+      <button class="btns">7</button>
+      <button class="btns">8</button>
+      <button class="btns">9</button>
+      <button class="btns">-</button>
+      <button class="btns">4</button>
+      <button class="btns">5</button>
+      <button class="btns">6</button>
+      <button class="btns">+</button>
+      <button class="btns">1</button>
+      <button class="btns">2</button>
+      <button class="btns">3</button>
+      <button  id="igual" class="btns">=</button>
+      <button  id="cero"  class="btns">0</button>
+      <button class="btns">.</button>
+    </div>
+  </main>
+
+  <aside class="caja">
+
+    <div class="caja1">
+      <div class="card" style="width: 18rem;">
+        <img src="assets/baldur.jpg" class="card-img-top" alt="baldur">
+        <div class="card-body">
+          <h5 class="card-title">Baldur's Gate 3</h5>
+          <p class="card-text">Reúne a tu grupo y vuelve a los Reinos Olvidados en un relato de compañerismo y traición, sacrificio y supervivencia.</p>
+          <a href="https://store.steampowered.com/app/1086940/Baldurs_Gate_3/" class="btn btn-primary">Ver mas</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="caja2">
+      <div class="card" style="width: 18rem;">
+        <img src="assets/cyberpunk.jpg" class="card-img-top" alt="cyberpunk">
+        <div class="card-body">
+          <h5 class="card-title">Cyberpunk 2077</h5>
+          <p class="card-text">Cyberpunk 2077 es un RPG de aventura y acción de mundo abierto ambientado en el futuro sombrío de Night City</p>
+          <a href="https://store.steampowered.com/app/1091500/Cyberpunk_2077/" class="btn btn-primary">Ver mas</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="caja3">
+      <div class="card" style="width: 18rem;">
+        <img src="assets/payday.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">PAYDAY 3</h5>
+          <p class="card-text">PAYDAY 3 es la muy esperada secuela de uno de los shooters cooperativos más populares que existen. Desde su lanzamiento.</p>
+          <a href="https://store.steampowered.com/app/1272080/PAYDAY_3/" class="btn btn-primary">Ver mas</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="caja4">
+      <div class="card" style="width: 18rem;">
+        <img src="assets/farlight.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Farlight 84</h5>
+          <p class="card-text">Shooter de héroes de ritmo rápido Battle Royale. Interoperable multiplataforma. Con mochilas propulsoras flexibles.</p>
+          <a href="https://store.steampowered.com/app/1928420/Farlight_84/" class="btn btn-primary">Ver mas</a>
+        </div>
+      </div>
+    </div>
+
+  </aside>
+  <!--Formulario-->
+  <div class="fondoformulario">
+    <form action="https://formsubmit.co/aguspro30@gmail.com" method="post" class="formulario">
+      <h3>Recomendaciones</h3>
+      
+      <label for="Nombre">Nombre</label>
+      <input type="text"  name="name" class="entrada">
+      
+      <label for="email">Email</label>
+      <input type="email" name="email" class="entrada">
+      
+      <label for="subject">Asunto</label>
+      <input type="text" name="subject"   class="entrada">
+
+      <label for="comments">Comentarios</label>
+      <textarea name="comments" cols="28" rows="5"  class="entrada"></textarea>
+
+      <input type="submit" value="Enviar">
+    </form>          
+  </div>
+  <!--bootstrap js-->
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <!--Js-->
+  <script src="index.js"></script>
+  <!--Js de fuentes-->
+  <script src="https://kit.fontawesome.com/874df480f2.js" crossorigin="anonymous"></script>
+</body>
+</html>
