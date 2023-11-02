@@ -14,15 +14,17 @@
 <body>
 
   <header>
-      <nav class="navbar bg-body-tertiary">
-          <div class="container-fluid">
-            <a class="navbar-brand"><img src="./assets/NeonLogo.png" alt="logo" class="logo"></a>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="videojuegos" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Buscar</button>
-            </form>
-          </div>
-        </nav>
+    <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+      <form class="container-fluid justify-content-start">
+        <img src="./assets/NeonLogo.png" alt="" class="logo">
+        <a href="./index.html">
+         <button class="btn btn-outline-success me-2" type="button" >Home</button>
+        </a>
+        <a href="./paginas/ventas.html">
+          <button class="btn btn-sm btn-outline-secondary" type="button">Venta</button>
+        </a>
+      </form>
+    </nav>
   </header>
 
   <div class="titulo">
@@ -166,7 +168,7 @@
       <label for="comments">Comentarios</label>
       <textarea name="comments" cols="28" rows="5"  class="entrada"></textarea>
 
-      <input type="submit" value="Enviar">
+      <input type="submit" value="Enviar" class="movebtn">
     </form>          
   </div>
   <!--bootstrap js-->
