@@ -1,18 +1,22 @@
 [
     {
         "juego": "the last of us",
-        "genero": "terror"
+        "genero": "terror",
+        "distribuidora": "Sony Computer Entertainment"
     },
     {
         "juego": "Minecraft",
-        "genero": "Aventura"
+        "genero": "Aventura",
+        "distribuidora":"mojang"
     },
     {
         "juego": "Counter Strike",
-        "genero": "Shooter"
+        "genero": "Shooter",
+        "distribuidora":"Valve"
     },
     {
         "juego": "Far cry",
-        "genero": "Accion"
+        "genero": "Accion",
+        "distribuidora":"Ubisoft"
     }
 ]
