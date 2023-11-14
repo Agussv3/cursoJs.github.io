@@ -1,0 +1,18 @@
+[
+    {
+        "juego": "the last of us",
+        "genero": "terror"
+    },
+    {
+        "juego": "Minecraft",
+        "genero": "Aventura"
+    },
+    {
+        "juego": "Counter Strike",
+        "genero": "Shooter"
+    },
+    {
+        "juego": "Far cry",
+        "genero": "Accion"
+    }
+]
